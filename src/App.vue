@@ -17,6 +17,7 @@ const uiStore = useUiStore()
         <nav class="nav-links">
           <router-link to="/">Home</router-link>
           <router-link to="/shop">Shop</router-link>
+          <router-link to="/api-carts">API Carts</router-link>
         </nav>
 
         <button @click="uiStore.toggleMiniCart" class="cart-toggle">
